@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: white;
+}
+#trial{
+    margin-top: 30px;
+    position: absolute;
+    right: 200px;
+}
+#popup{
+    background-color: rgb(228, 109, 109);
+    height:150px;
+    width:250px;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+#popup2{
+    height:180px;
+    width:300px;
+    color: rgb(236, 63, 63);
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 530px;
+}
+#parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#child{
+    height: 380px;
+    width: 280px;
+    border: 2px solid red;
+    background-color: white;
+    color: rgb(103, 11, 223);
+    border-radius: 20px;
+}
+#plus{
+    color: rgb(68, 113, 240);
+    position: relative;
+    top: 270px;
+    left: 80px;
+}
+#delete{
+    color: red;
+    position: relative;
+    top: 270px;
+    left: 90px; 
+}
